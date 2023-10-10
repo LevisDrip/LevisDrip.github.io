@@ -30,6 +30,15 @@ body{
 
 }
 
+#projectHeader{
+    background-color: black;
+    /*flex: 2 1 0;*/
+
+    min-height: 150px;
+
+
+}
+
 #navigationDiv{
     display: flex;
     flex-direction: row;
@@ -64,6 +73,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 
     height: auto;
@@ -82,6 +92,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
     height: auto;
 
@@ -147,12 +158,17 @@ body{
     height: 500px;
     width: 700px;
     padding: 10px;
-
 }
 
 
 /*Fonts*/
 .font{
+    font-family: "Press Start 2P";
+    color: white;
+    text-align: center;
+}
+
+.projectFont{
     font-family: "Press Start 2P";
     color: white;
     text-align: center;
@@ -354,11 +370,12 @@ div.OtherSlideShowContainer{
     float: left;
     width: 700px;
 
-
     height: auto;
 
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
     padding: 10px;
 
     background-color: rgba(124, 124, 124, 0.5);
@@ -368,8 +385,6 @@ div.OtherSlideShowContainer{
 .projectImages{
     width: 600px;
     height: 400px;
-
-
 
     border:5px solid darkslategray;
 }
@@ -395,11 +410,196 @@ div.OtherSlideShowContainer{
 /*media Query*/
 @media screen and (max-width: 1024px){
 
+    #landingmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        height: auto;
+
+
+
+        margin-left: 17%;
+        margin-bottom: 30%;
+        align-items: center;
+
+    }
+
+    #TextBox{
+        background-color: rgba(124, 124, 124, 0.5);
+        border-radius: 25px;
+
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+        /*margin-right: 15%;*/
+    }
+
+    #head{
+        font-size: small;
+    }
+
+    #head2{
+        font-size: small;
+    }
+
+    #button{
+        display: none;
+        background-color: grey;
+
+        width: 170px;
+        height: 50px;
+        text-align: center;
+
+        margin-top: 25%;
+        margin-left: 20%;
+    }
+
+    .firstfont{
+        font-family: "Press Start 2P";
+        color: white;
+        text-align: center;
+        font-size: small;
+    }
+
     #header{
         background-color: black;
         /*flex: 4 1 0;*/
         height: 200px;
     }
+
+    #projectHeader{
+        background-color: black;
+        /*flex: 2 1 0;*/
+
+        min-height: 200px;
+
+
+    }
+
+    .aboutMeBox{
+        float: left;
+        width: 375px;
+
+
+        height: auto;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+
+        background-color: rgba(124, 124, 124, 0.5);
+        border-radius: 25px;
+    }
+
+    .aboutmefont{
+        font-family: "Press Start 2P";
+        color: white;
+        text-align: left;
+
+        font-size: smaller;
+    }
+
+    .imageStyleME{
+        max-width: 90%;
+        max-height: 90%;
+        border: 5px solid darkslategray;
+
+        position: sticky;
+
+        margin-left: 3%;
+        margin-bottom: 5%;
+    }
+
+    .projectImages{
+        width: 300px;
+        height: 200px;
+        margin-left: 12%;
+
+
+        border:5px solid darkslategray;
+    }
+
+    .projectFont{
+        font-family: "Press Start 2P";
+        color: white;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .portfolioContentMain{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        height: auto;
+
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+
+    }
+
+    .boatTile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        width: 325px;
+        height: 175px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        padding:50px;
+
+        transition-duration: 0.4s;
+        /*background-color: white;*/
+    }
+
+    .boatHover{
+        filter: drop-shadow(1px 0px 4px #000000);
+    }
+
+    .boatHover:hover{
+        filter: drop-shadow(1px 12.5px 20px #000000);
+        width: 325px;
+        height: 175px;
+    }
+
+    .projectTile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        padding:50px;
+
+        transition-duration: 0.4s;
+        /*background-color: white;*/
+    }
+
+    .projectHover{
+        filter: drop-shadow(1px 0px 4px #000000);
+    }
+
+    .projectHover:hover{
+        filter: drop-shadow(1px 25px 20px #000000);
+        height: 305px;
+        width: 305px;
+
+
+    }
+
 
 
     .navigationButtons{
@@ -473,6 +673,25 @@ div.OtherSlideShowContainer{
 
     .customSlideshowSpeed.w3-animate-right{
         animation: 1.6s ease 0s normal none 1 running animateright;
+    }
+
+
+/*    Covers*/
+    #boardingBucsCover{
+        background-image: url("../img/covers/resizedCovers/BoardingBucsCover.png");
+        background-repeat: no-repeat;
+
+
+    }
+
+    #blackJackCover{
+        background-image: url("../img/covers/resizedCovers/BlackJackCover.png");
+        background-repeat: no-repeat;
+    }
+
+    #fpsCover{
+        background-image: url("../img/covers/resizedCovers/FPSCover.png");
+        background-repeat: no-repeat;
     }
 }
 
