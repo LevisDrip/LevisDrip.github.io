@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../stylesheet/stylesheet.css">
+
+
+</head>
+<script src="../js/myscript.js"></script>
+
+<body onload="onload()">
+
+    <div id="container">
+        <div id="header">
+            <h1 class="font">The archive     -    Home</h1>
+
+            <div id="navigationDiv">
+                <button onclick="toAboutMe()" class="navigationButtons buttonHover"> <p class="buttonFont">About me</p>  </button>
+                <button onclick="toProjects()" class="navigationButtons buttonHover"> <p class="buttonFont">Projects</p>  </button>
+            </div>
+
+        </div>
+
+        <div id="main">
+
+            <div class="slideShowContainer w3-section" style="max-width: 500px">
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-right" src="../img/homePageImages/PongRicardo.png" >
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-left" src="../img/homePageImages/PointAndClick.png" >
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-right" src="../img/homePageImages/FPSgame.png" >
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-left" src="../img/homePageImages/boardingbuccaneers.png" >
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-right" src="../img/homePageImages/BlackJack.png" >
+                <img class="mySlides imageStyle customSlideshowSpeed w3-animate-left" src="../img/homePageImages/zazaForest.png" >
+
+                <br>
+
+               <div class="infoBox">
+                    <p class="infoFont"> Images shown above have been made by me and are previews of projects I have made.
+                        <br> For more the full project portfolio you can go to the "Projects" page. </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div id="footer">
+            <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont">Contact me</p>  </button>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
