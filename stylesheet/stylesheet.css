@@ -158,6 +158,8 @@ body{
     height: 500px;
     width: 700px;
     padding: 10px;
+
+    margin-left: 25%;
 }
 
 
@@ -187,6 +189,12 @@ body{
     font-size: xx-small;
 }
 
+.firstfont{
+    font-family: "Press Start 2P";
+    color: white;
+    text-align: center;
+
+}
 
 /*buttons and button animations*/
 #button{
@@ -306,7 +314,9 @@ div.OtherSlideShowContainer{
 
     position: sticky;
 
-    margin-right: 5%;
+    margin-bottom: 20px;
+
+
 }
 
 
@@ -353,7 +363,7 @@ div.OtherSlideShowContainer{
 
 .aboutMeBox{
     float: left;
-    width: 800px;
+    width: 700px;
 
 
     height: auto;
@@ -433,7 +443,8 @@ div.OtherSlideShowContainer{
         height: 300px;
         width: 300px;
         padding: 10px;
-        /*margin-right: 15%;*/
+        margin-left: 0%;
+        margin-right: 15%;
     }
 
     #head{
@@ -480,10 +491,12 @@ div.OtherSlideShowContainer{
 
     .aboutMeBox{
         float: left;
-        width: 375px;
+        width: 90%;
 
 
         height: auto;
+
+        margin-left: 5px;
 
         margin-top: 20px;
         margin-bottom: 20px;
@@ -508,7 +521,7 @@ div.OtherSlideShowContainer{
 
         position: sticky;
 
-        margin-left: 3%;
+        margin-left: 2%;
         margin-bottom: 5%;
     }
 
