@@ -34,7 +34,7 @@ body{
     background-color: black;
     /*flex: 2 1 0;*/
 
-    min-height: 150px;
+    min-height: 225px;
 
 
 }
@@ -528,7 +528,7 @@ div.OtherSlideShowContainer{
     .projectImages{
         width: 300px;
         height: 200px;
-        margin-left: 12%;
+        margin-left: 20%;
 
 
         border:5px solid darkslategray;
@@ -613,6 +613,21 @@ div.OtherSlideShowContainer{
 
     }
 
+    .aboutProjectsBox{
+        float: left;
+        width: 700px;
+
+        height: auto;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 10px;
+
+        background-color: rgba(124, 124, 124, 0.5);
+        border-radius: 25px;
+    }
 
 
     .navigationButtons{
