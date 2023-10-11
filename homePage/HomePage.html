@@ -13,15 +13,26 @@
 </head>
 <script src="../js/myscript.js"></script>
 
-<body onload="onload()">
+<body onload="ChangeLanguageLoad(), onloadHome()">
 
     <div id="container">
         <div id="header">
-            <h1 class="projectFont">The archive     -     Home</h1>
+
+            <div class="dropdown" tabindex="1">
+                <i class="db2" tabindex="1"></i>
+                <a class="dropbtn">Language</a>
+                <div class="dropdown-content">
+                    <a onclick="changeEnglish()">English</a>
+                    <a onclick="changeDutch()">Dutch</a>
+
+                </div>
+            </div>
+
+            <h1 class="projectFont" id="homeTitle">The archive     -     Home</h1>
 
             <div id="navigationDiv">
-                <button onclick="toAboutMe()" class="navigationButtons buttonHover"> <p class="buttonFont">About me</p>  </button>
-                <button onclick="toProjects()" class="navigationButtons buttonHover"> <p class="buttonFont">Projects</p>  </button>
+                <button onclick="toAboutMe()" class="navigationButtons buttonHover"> <p class="buttonFont" id="aboutMeText">About me</p>  </button>
+                <button onclick="toProjects()" class="navigationButtons buttonHover"> <p class="buttonFont" id="projectsText">Projects</p>  </button>
             </div>
 
         </div>
@@ -39,8 +50,8 @@
                 <br>
 
                <div class="infoBox">
-                    <p class="infoFont"> Images shown above have been made by me and are previews of projects I have made.
-                        <br> For more the full project portfolio you can go to the "Projects" page. </p>
+                    <p class="infoFont" id="homePageText"> Images shown above have been made by me and are previews of my projects.
+                        <br> For more information on these projects head on over to the "Projects page". </p>
                 </div>
             </div>
 
@@ -50,7 +61,7 @@
         </div>
 
         <div id="footer">
-            <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont">Contact me</p>  </button>
+            <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover" > <p class="buttonFont" id="contactText">Contact me</p>  </button>
         </div>
 
     </div>

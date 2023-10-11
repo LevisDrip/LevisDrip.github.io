@@ -13,25 +13,36 @@
 </head>
 <script src="../js/myscript.js"></script>
 
-<body onload="onload()">
+<body onload="ChangeLanguageLoad(), onload()">
 
 <div id="container">
-    <div id="projectHeader">
-        <h1 class="projectFont">The archive     - <br>   About me</h1>
+
+    <div id="header">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Dutch</a>
+
+            </div>
+        </div>
+
+        <h1 class="projectFont" id="aboutMeTitle">The archive     - <br>   About me</h1>
 
         <div id="navigationDiv">
-            <button onclick="toHomePage()" class="navigationButtons buttonHover"> <p class="buttonFont">Home</p>  </button>
-            <button onclick="toProjects()" class="navigationButtons buttonHover"> <p class="buttonFont">Projects</p>  </button>
+            <button onclick="toHomePage()" class="navigationButtons buttonHover"> <p class="buttonFont" id="homeText">Home</p>  </button>
+            <button onclick="toProjects()" class="navigationButtons buttonHover"> <p class="buttonFont" id="projectsText">Projects</p>  </button>
         </div>
 
     </div>
 
     <div id="aboutMeMain">
 
-        <div class="aboutMeBox">
-            <h5 class="aboutmefont">Hello, My name is Levi Lamerichs</h5>
+        <div class="aboutMeBox" >
+            <h5 class="aboutmefont" id="information1">Hello, My name is Levi Lamerichs</h5>
             <br>
-            <p class="aboutmefont">I am 17 years old and live in the Netherlands.
+            <p class="aboutmefont" id="information2">I am 17 years old and live in the Netherlands.
                  I am currently studying Software development at Sintlucas
                  in Eindhoven. Before my studies I used to go to Citaverde in Horst,
                  which was a school that didn't actually have anything to do with computers
@@ -42,29 +53,27 @@
             <br>
             <br>
 
-            <h5 class="aboutmefont">My Hobbies</h5>
+            <h5 class="aboutmefont" id="information3">My Hobbies</h5>
             <br>
-            <p class="aboutmefont">
+            <p class="aboutmefont" id="information4">
                 In my free time I like to play games with my friends. We would play games like Minecraft, Terraria
-                and all sorts of party games in which we can just get pissed at each other. Other than playing games
-                I also like playing guitar. I picked up playing the guitar not to long after making this website.
-                A little dedication came a far way, because in less than half a year I was able to play some of my
-                favorite songs! My first one was the intro theme to The last of us.
+                and all sorts of party games in which we can just get mad at each other, because one of us is always
+                luckier than the others. Other than playing games I also like playing guitar. I picked up playing
+                the guitar not to long after making this website. A little dedication came a far way, because in less
+                than half a year I was able to play some of my favorite songs! The first song I knew how to play was the intro theme to The last of us.
             </p>
 
             <br>
             <br>
 
-            <h5 class="aboutmefont">My experience with programming</h5>
+            <h5 class="aboutmefont" id="information5">My experience with programming</h5>
             <br>
-            <p class="aboutmefont">
+            <p class="aboutmefont" id="information6">
                 For the past years I have been programming stuff for school like games and websites. We started
-                by learning the basics of HTML and CSS, after a while we got to learn Javascript as well. Sadly
-                enough this was the first year of our school doing a bilingual education, so almost none of our
-                teachers were actually able to efficiently explain what we were supposed to do and how everything
-                worked. But besides all of that the start of the second year got us right back in to the swing of
-                things, and we got very nice explanations of how javascript works. That was in the same period
-                that I made this website.
+                by learning the basics of HTML and CSS, after a while we got to learn Javascript as well.
+                In the first period of the second year we had learned even more about web development, thus also got
+                more efficient with JavaScript and CSS. That was in the same period that I made this website.
+                In the second period we will start working on Game development which I am really excited about.
                 <br>
                 <br>
                 I personally want to specialize in game development, since I think it's more fun than web development.
@@ -97,7 +106,9 @@
 
 
     <div id="footer">
-        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont">Contact me</p>  </button>
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover" > <p class="buttonFont" id="contactText">Contact me</p>  </button>
+
+
     </div>
 
 </div>
