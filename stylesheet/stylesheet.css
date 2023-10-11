@@ -435,7 +435,7 @@ div.OtherSlideShowContainer{
     margin-left: 5%;
     color: #ffffff;
     font-family: "Press Start 2P";
-    background-color: #313131;
+    background-color: #000000;
     cursor: pointer;
     transition: 0.35s ease-out;
 }
@@ -444,7 +444,7 @@ div.OtherSlideShowContainer{
 .dropdown .dropdown-content {
     position: absolute;
     top: 50%;
-    background-color: #8c0f0f;
+    background-color: #000000;
     min-width: 120%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 100000;
@@ -453,14 +453,17 @@ div.OtherSlideShowContainer{
     transition: 0.35s ease-out;
 }
 .dropdown-content a {
-    color: black;
+    background-color: black;
     padding: 12px 16px;
     display: block;
     text-decoration: none;
+    font-family: "Press Start 2P";
+    color: white;
+
     transition: 0.35s ease-out;
 }
 .dropdown-content a:hover {
-    background-color: #000000;
+    background-color: #2d2d2d;
 }
 
 /* show dd content */
@@ -471,7 +474,7 @@ div.OtherSlideShowContainer{
     opacity: 1;
 }
 .dropbtn:hover, .dropdown:focus .dropbtn {
-    background-color: #000000;
+    background-color: #2d2d2d;
 }
 
 /* mask to close menu by clicking on the button */

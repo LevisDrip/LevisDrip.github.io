@@ -7,24 +7,57 @@ let introText1 = "Hello, my name is Levi Lamerichs"
 let introText2 = "And welcome to my portfolio!"
 let introText3 = "Continue >"
 
+let introTextDutch1 = "Hallo, mijn naam is Levi Lamerichs"
+let introTextDutch2 = "En welkom bij mijn portfolio!"
+let introTextDutch3 = "Verder >"
+
 let speed = 50;
 
 let myIndex = 0;
 
+let Dutch = true;
+
+
+
 function TypeWriter(){
-    if(i < introText1.length){
+    if (document.cookie === "English"){
+        Dutch = true;
+    }
+    else{
+        Dutch = false;
+    }
+
+    if(i < introText1.length && !Dutch){
         document.getElementById("head").innerHTML += introText1.charAt(i);
         i++;
         setTimeout(TypeWriter, speed);
     }
-    else if(j < introText2.length){
+    else if(j < introText2.length && !Dutch){
         document.getElementById("head2").innerHTML += introText2.charAt(j);
         j++;
         setTimeout(TypeWriter, speed);
     }
-    else if (b < introText3.length) {
+    else if (b < introText3.length && !Dutch) {
         document.getElementById("button").style.display = "block"
         document.getElementById("button").innerHTML += introText3.charAt(b);
+        b++;
+        setTimeout(TypeWriter, speed);
+    }
+
+
+    if(i < introTextDutch1.length && Dutch){
+        document.getElementById("head").innerHTML += introTextDutch1.charAt(i);
+        i++;
+        setTimeout(TypeWriter, speed);
+    }
+    else if(j < introTextDutch2.length && Dutch){
+        document.getElementById("head2").innerHTML += introTextDutch2.charAt(j);
+        j++;
+        setTimeout(TypeWriter, speed);
+    }
+    else if (b < introTextDutch3.length && Dutch) {
+        document.getElementById("button").style.display = "block"
+        document.getElementById("button").innerHTML += introTextDutch3.charAt(b);
         b++;
         setTimeout(TypeWriter, speed);
     }
@@ -91,5 +124,16 @@ function fpsGame(){
     window.location.href = "../projectsPage/fpsGame/fpsGame.html"
 }
 
+
+
+function changeDutch(){
+    document.cookie = "English";
+    window.location.reload();
+}
+
+function changeEnglish(){
+    document.cookie = "Dutch"
+    window.location.reload();
+}
 
 
