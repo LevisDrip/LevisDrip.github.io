@@ -39,6 +39,15 @@ body{
 
 }
 
+#projectHeader2{
+    background-color: black;
+    /*flex: 2 1 0;*/
+
+    min-height: 250px;
+
+
+}
+
 #navigationDiv{
     display: flex;
     flex-direction: row;
@@ -728,7 +737,7 @@ div.OtherSlideShowContainer{
         cursor: pointer;
 
         border: none;
-        width: 150px;
+        width: 200px;
         height: 50px;
 
     }

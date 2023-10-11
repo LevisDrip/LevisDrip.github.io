@@ -13,15 +13,26 @@
 </head>
 <script src="../js/myscript.js"></script>
 
-<body onload="ChangeLanguageLoad(), onload()">
+<body onload="ChangeLanguageLoad(), onloadProject()">
 
 <div id="container">
-    <div id="projectHeader">
-        <h1 class="projectFont">The archive     -    Projects</h1>
+    <div id="projectHeader2">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn" id="languageText">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Nederlands</a>
+
+            </div>
+        </div>
+
+
+        <h1 class="projectFont" id="projectTitle">The archive     -    Projects</h1>
 
         <div id="navigationDiv">
-            <button onclick="toHomePage()" class="navigationButtons buttonHover"> <p class="buttonFont">Home</p>  </button>
-            <button onclick="toAboutMe()" class="navigationButtons buttonHover"> <p class="buttonFont">About me</p>  </button>
+            <button onclick="toHomePage()" class="navigationButtons buttonHover"> <p class="buttonFont" id="homeText">Home</p>  </button>
+            <button onclick="toAboutMe()" class="navigationButtons buttonHover"> <p class="buttonFont" id="aboutMeText">About me</p>  </button>
         </div>
 
     </div>
@@ -75,7 +86,7 @@
 <!--    </div>-->
 
     <div id="footer">
-        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont">Contact me</p>  </button>
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont" id="contactText">Contact me</p>  </button>
     </div>
 
 </div>
