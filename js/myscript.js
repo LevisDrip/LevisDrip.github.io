@@ -119,15 +119,15 @@ function onload(){
 
         document.getElementById("information3").innerText = "My Hobbies";
 
-        document.getElementById("information4").innerText = "In my free time I like to play games with my friends. We would play games like Minecraft, Terraria\n" +
-            "                and all sorts of party games in which we can just get mad at each other, because one of us is always" +
-            "                luckier than the others. Other than playing games I also like playing guitar. I picked up playing" +
+        document.getElementById("information4").innerText = "In my free time I like to play games with my friends. We would play games like Minecraft, Terraria" +
+            "                and all sorts of party games in which one of us is always luckier than the others" +
+            "                Other than playing games I also like playing guitar. I picked up playing" +
             "                the guitar not to long after making this website. A little dedication came a far way, because in less" +
             "                than half a year I was able to play some of my favorite songs! The first song I knew how to play was the intro theme to The last of us.";
 
         document.getElementById("information5").innerText = "My experience with programming";
 
-        document.getElementById("information6").innerText = "For the past years I have been programming stuff for school like games and websites. We started\n" +
+        document.getElementById("information6").innerText = "For the past years I have been programming stuff for school like games and websites. We started" +
             "                by learning the basics of HTML and CSS, after a while we got to learn Javascript as well." +
             "                In the first period of the second year we had learned even more about web development, thus also got" +
             "                more efficient with JavaScript and CSS. That was in the same period that I made this website." +
@@ -135,7 +135,7 @@ function onload(){
             "                " +
             "                " +
             "                I personally want to specialize in game development, since I think it's more fun than web development." +
-            "                In my first year of my education we made prototype games like a first-person shooter. I also made" +
+            "                In the first year of my education we made prototype games like a first-person shooter. I also made" +
             "                BlackJack for a freedom assignment. I would've made more, but we had too little time to make our game." +
             "                As of now Unity has made some pretty bad business decisions, that's why I haven't made anything in Unity" +
             "                for quite a while, I'm looking into other engines at the moment as well, but I haven't found any yet." +
@@ -152,7 +152,7 @@ function onload(){
 
     }
     else {
-        document.getElementById("aboutMeTitle").innerText = "The archive     -    Wie ben ik"
+        document.getElementById("aboutMeTitle").innerText = "The archive     -    Wie ben ik?"
 
         document.getElementById("projectsText").innerText = "Projecten"
         document.getElementById("homeText").innerText = "Start"
@@ -170,9 +170,9 @@ function onload(){
 
         document.getElementById("information3").innerText = "Mijn Hobbies";
 
-        document.getElementById("information4").innerText = "In mijn vrije tijd vind ik het leuk om games te spelen met mijn vrienden. Meestal spelen we dan spellen zoals Minecraft, Terraria\n" +
-            "                en allerlei soorten Party games waarin we altijd boos op elkaar kunnen worden, Omdat een van ons dan altijd" +
-            "                meer geluk heeft dan de andere. Buiten het gamen vind ik het ook leuk om gitaar te spelen. Ik ben een half jaar" +
+        document.getElementById("information4").innerText = "In mijn vrije tijd vind ik het leuk om games te spelen met mijn vrienden. Meestal spelen we dan spellen zoals Minecraft, Terraria" +
+            "                en allerlei soorten Party games waarin een van ons dan meer geluk heeft dan alle andere." +
+            "                Buiten het gamen vind ik het ook leuk om gitaar te spelen. Ik ben een half jaar" +
             "                voor het maken van deze website begonnen met gitaar spelen. Met een beetje doorzettingsvermogen kom je al best ver, want in minder" +
             "                dan een half jaar kan ik al een paar van mijn favoriete nummers spelen! Het eerste nummer dat ik kon was de intro song van The Last of us.";
 
@@ -186,8 +186,8 @@ function onload(){
             "                \n" +
             "                \n" +
             "                Ik wil graag specializeren in Game development, omdat mij dit leuker lijkt dan web development." +
-            "                In het eerste jaar van mijn opleiding hebben we echt protoptypes van spellen gemaakt zoals een first-person shooter. Ook heb ik" +
-            "                heb ik BlackJack gemaakt voor een open opdracht. Ik zou meer hebben gemaakt, maar we hadden te weinig tijd." +
+            "                In het eerste jaar van mijn opleiding hebben we vooral protoptypes van spellen gemaakt zoals een first-person shooter. Ook heb ik" +
+            "                BlackJack gemaakt voor een open opdracht. Ik zou meer hebben gemaakt, maar we hadden te weinig tijd." +
             "                Zoals het er nu uit ziet heeft Unity best slechte financieele beslissingen gemaakt, daarom heb ik ook al even niks meer gemaakt in Unity," +
             "                ik ben daarom ook aan het kijken naar andere engines zoals Unreal, maar daar heb ik nog geen gebruik van gemaakt." +
             "                Een vriend van mij heeft zijn eigen studio bedrijf, genaamd Story Studio entertainment. Hij had aan mij gevraagd" +
@@ -224,7 +224,7 @@ function onloadHome(){
         document.getElementById("homeTitle").innerText = "The archive     -    Start"
 
         document.getElementById("projectsText").innerText = "Projecten"
-        document.getElementById("aboutMeText").innerText = "Wie ben ik"
+        document.getElementById("aboutMeText").innerText = "Wie ben ik?"
 
         document.getElementById("contactText").innerText = "Contact opnemen?"
 
@@ -255,7 +255,7 @@ function onloadProject(){
         document.getElementById("projectTitle").innerText = "The archive     -    Projecten"
 
         document.getElementById("homeText").innerText = "Start"
-        document.getElementById("aboutMeText").innerText = "Wie ben ik"
+        document.getElementById("aboutMeText").innerText = "Wie ben ik?"
 
         document.getElementById("contactText").innerText = "Contact opnemen?"
 
