@@ -25,7 +25,7 @@ body{
     background-color: black;
     /*flex: 2 1 0;*/
 
-    min-height: 275px;
+    min-height: 250px;
 
 
 }
@@ -34,7 +34,7 @@ body{
     background-color: black;
     /*flex: 2 1 0;*/
 
-    min-height: 250px;
+    min-height: 225px;
 
 
 }
@@ -43,7 +43,7 @@ body{
     background-color: black;
     /*flex: 2 1 0;*/
 
-    min-height: 275px;
+    min-height: 250px;
 }
 
 #landingHeader{
@@ -588,21 +588,21 @@ div.OtherSlideShowContainer{
     #header{
         background-color: black;
         /*flex: 4 1 0;*/
-        height: 250px;
+        height: 275px;
     }
 
     #projectHeader{
         background-color: black;
         /*flex: 2 1 0;*/
 
-        min-height: 200px;
+        min-height: 225px;
     }
 
     #landingHeader{
         background-color: black;
         /*flex: 2 1 0;*/
 
-        min-height: 225px;
+        min-height: 250px;
     }
 
     .aboutMeBox{
