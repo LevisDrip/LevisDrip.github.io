@@ -595,14 +595,21 @@ div.OtherSlideShowContainer{
     #header{
         background-color: black;
         /*flex: 4 1 0;*/
-        height: 275px;
+        height: 300px;
     }
 
     #projectHeader{
         background-color: black;
         /*flex: 2 1 0;*/
 
-        min-height: 225px;
+        min-height: 250px;
+    }
+
+    #projectHeader2{
+        background-color: black;
+        /*flex: 2 1 0;*/
+
+        min-height: 250px;
     }
 
     #landingHeader{
