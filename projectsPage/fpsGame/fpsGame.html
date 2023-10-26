@@ -13,26 +13,58 @@
 </head>
 <script src="../../js/myscript.js"></script>
 
-<body onload="onload()">
+<body onload="ChangeLanguageLoad(), onloadFPSshooter()">
 
 <div id="container">
-    <div id="header">
-        <h1 class="font">Project - fps Game</h1>
+    <div id="projectHeader2">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn" id="languageText">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Nederlands</a>
+
+            </div>
+        </div>
+
+        <h1 class="projectFont">Project -  FPS Shooter</h1>
 
         <div id="navigationDiv">
-            <button onclick="goBack()" class="navigationButtons buttonHover"> <p class="buttonFont">Go back</p>  </button>
+            <button onclick="goBack()" class="navigationButtons buttonHover"> <p id="BackButton" class="buttonFont">Go back</p>  </button>
 
         </div>
 
     </div>
 
-    <div id="main">
+    <div class="portfolioContentMain">
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectFPSInfo1">This project was really nothing more than a prototype or an assignment on how to do basic
+                game development. During this time I also figured out how to use unity assets. This is
+                how I made the mountain area in the backgrounds and the mushroom forest which you can see in
+                the images that I have provided.</p>
+        </div>
+
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/fpsGame/image1.png" alt="">
+        </div>
+    </div>
+
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/fpsGame/image2.png" alt="">
+        </div>
+
+
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectFPSInfo2">While working on this project we also learnt about raycasting for the first time. This was very important since I will definitly be using it in many projects to come. Although raycasting was a bit dificult at first, I quickly learnt how to use it. We also made enemies that we could shoot. I hadn't worked with blender when making this so the gun was made with just unity objects. It also didn't shoot bullets, but thats besides the point, because all that matters is that the enemies were killable. </p>
+        </div>
+
 
     </div>
 
 
     <div id="footer">
-        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont">Contact me</p>  </button>
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont" id="contactText">Contact me</p>  </button>
     </div>
 
 </div>

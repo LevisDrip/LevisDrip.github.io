@@ -235,6 +235,147 @@ function onloadHome(){
     }
 }
 
+function onloadBoardingBucs(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectBBInfo1").innerText = "Boarding Buccaneers was made as an extra for a game development assignment." +
+            "                Since I was building a game that had nothing to do with our assignment " +
+            "                I had to ask for help from friends and look things up on the internet. Besides the Pong game we" +
+            "                made (which was the original assignment), I decided I wanted to make a space invaders like game with" +
+            "                actual good-looking sprites."
+
+        document.getElementById("projectBBInfo2").innerText = "For the sprites I used PaintDotNet to make small 16 x 16 pixel art ships." +
+            "            I made 2 variants the Spanish and the British (sprites are shown down below). The enemies will shoot you and kill you." +
+            "            One shot from the enemy ship will kill you. Return fire with your own pirate ship to attempt to kill" +
+            "            the spanish and british armada's." +
+            "                \n" +
+            "            The game spans over 5 levels. 2 of which contain their own unique ships, either the spanish or the british" +
+            "            ships. The 3rd and 4th level have mixed enemies and level 5 is the boss level. The boss has 15 health points" +
+            "            and can shoot multiple bullets at once."
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectBBInfo1").innerText = "Boarding Buccaneers was gemaakt als een extra game voor een game development opdracht." +
+            "                Sinds ik een heel ander project ging maken moest ik heel veel opzoeken en ook vragen aan klasgenoten of zij wisten" +
+            "                hoe iets in elkaar zat. Buiten het pong spel die we hebben gemaakt" +
+            "                (dit was de originele opdracht), had ik besloten om een spel te maken gebaseerd op Space invaders" +
+            "                met goed-uitziende sprites."
+
+        document.getElementById("projectBBInfo2").innerText = "Voor de sprites heb ik PaintDotNet gebruikt om kleine 16 x 16 pixel art schepen te maken." +
+            "            Ik heb 2 varianten gemaakt, namelijk de Spanjaarden en de Britten (Sprites zijn onder aan het scherm te zien). Deze vijanden zullen op je schieten en je proberen te doden." +
+            "            Een schot van de vijand en je bent dood. Je kunt zelf natuurlijk ook terug schieten om " +
+            "            de Spaanse en Britse armada's te vernietigen." +
+            "                \n" +
+            "            Het spel heeft 5 levels. 2 van deze levels hebben elk hun unieke schip, namelijk de Spaanse of Britse " +
+            "            schepen. Het 3rde en 4rde level zijn een mix van de 2 soorten. De eindbaas heeft 15 healthpoints" +
+            "            en kan meerdere kogels tegelijk schieten."
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
+function onloadBlackJack(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectBJInfo1").innerText = "This game was a way for me to show that I know how to work with blender." +
+            "It was a freedom assignment for which we got 2 weeks, so I decided to make a simple game, Blackjack." +
+            "With this I got to work on my blender skills as much as I got to work on my coding skills."
+
+        document.getElementById("projectBJInfo2").innerText = "I remember this was quite a tedious project and not because of the coding but because of blender" +
+            "texturing. I needed a different texture for every card to represent all cards in a deck." +
+            "So i made a list with all 52 card textures on them. Then as soon as a card is drawn it will select a random" +
+            "texture from the list assign it to the drawn card and then delete the texture from the list so it cant be" +
+            "drawn again. "
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectBJInfo1").innerText = "Dit spel was een manier om te laten zien dat ik weet hoe ik met blender om kan gaan." +
+            "Het was een vrije opdracht waar we 2 weken de tijd voor kregen, dus had ik besloten om een redelijk simpel" +
+            "spel te maken, namelijk Blackjack." +
+            "Tijdens dit project kon ik veel werken aan mijn blender en programeer vaardigheden."
+
+        document.getElementById("projectBJInfo2").innerText = "Ik weet nog dat dit een vervelend project was, en dit kwam niet door het coderen, maar door blender." +
+            "Ik had namelijk verschillende textures nodig voor elke kaart in de stapel. Dus heb ik een list gemaakt" +
+            "en alle 52 textures er in gezet. Als er een kaart wordt getrokken dan krijgt deze een random texture en" +
+            "wordt de texture verwijdert uit de lijst, zodat deze kaart niet nog een keer getrokken kan worden."
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
+function onloadFPSshooter(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectFPSInfo1").innerText = "This project was really nothing more than a prototype or an assignment on how to do basic" +
+            "game development. During this time I also figured out how to use unity assets. This is" +
+            "how I made the mountain area in the backgrounds and the mushroom forest which you can see in " +
+            "the images that I have provided."
+
+        document.getElementById("projectFPSInfo2").innerText = "While working on this project we also learnt about raycasting for the first time. This was very important since I will definitly be using it in many projects to come. Although raycasting was a bit dificult at first, I quickly learnt how to use it. We also made enemies that we could shoot. I hadn't worked with blender when making this so the gun was made with just unity objects. It also didn't shoot bullets, but thats besides the point, because all that matters is that the enemies were killable. "
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectFPSInfo1").innerText = "Dit project was eigenlijk niet meer dan een prototype of een opdracht om de basis van game development te leren. Tijdens dit project heb ik ook geleerd hoe ik unity assets kan gebruiken. Door middel hiervan heb ik de bergen op de achtergrond kunnen maken en het bos van paddenstoelen. Deze zijn te zien in de foto's die ik in de pagina heb gezet."
+
+        document.getElementById("projectFPSInfo2").innerText = "Tijdens dit project leerde we ook over raycasting. Dit was heel belangrijk, omdat raycasting vaak gebruik word in 3D videogames en dus zal ik dit nog vaak moeten gaan gebruiken. In het begin was raycasting nog wel lastig, maar ik had al snel door hoe ik het moest gebruiken. We hadden ook vijanden gemaakt die we konden neerschieten. Toen bezig was met dit project had ik nog niet met blender gewerkt dus het pistool was gemaakt met alleen maar unity objecten en het pistool schoot geen kogels, want dan hadden we meer met animatie moeten werken, maar dat maakt niet uit want de vijanden kon je tenminste vermoorden."
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
+
+
 function onloadProject(){
 
     document.getElementById("container").style.backgroundColor = "#2d2d2d"
@@ -262,6 +403,9 @@ function onloadProject(){
         document.getElementById("languageText").innerText = "Taal"
     }
 }
+
+
+
 
 
 function slideShow() {
