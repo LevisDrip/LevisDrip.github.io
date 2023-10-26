@@ -70,10 +70,10 @@ function TypeWriter(){
     }
 
     if (!Dutch){
-        document.getElementById("lanuageText").innerText = "Language"
+        document.getElementById("languageText").innerText = "Language"
     }
     else {
-        document.getElementById("lanuageText").innerText = "Taal"
+        document.getElementById("languageText").innerText = "Taal"
     }
 }
 
