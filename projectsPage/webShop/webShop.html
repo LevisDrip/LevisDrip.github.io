@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../../stylesheet/stylesheet.css">
+
+
+</head>
+<script src="../../js/myscript.js"></script>
+
+<body onload="ChangeLanguageLoad(), onloadFPSshooter()">
+
+<div id="container">
+    <div id="projectHeader2">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn" id="languageText">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Nederlands</a>
+
+            </div>
+        </div>
+
+        <h1 class="projectFont">Project -  FPS Shooter</h1>
+
+        <div id="navigationDiv">
+            <button onclick="goBack()" class="navigationButtons buttonHover"> <p id="BackButton" class="buttonFont">Go back</p>  </button>
+
+        </div>
+
+    </div>
+
+    <div class="portfolioContentMain">
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectWebShopInfo1"></p>
+        </div>
+
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/fpsGame/image1.png" alt="">
+        </div>
+    </div>
+
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/fpsGame/image2.png" alt="">
+        </div>
+
+
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectWebShopInfo2"></p>
+        </div>
+
+
+    </div>
+
+
+    <div id="footer">
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont" id="contactText">Contact me</p>  </button>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

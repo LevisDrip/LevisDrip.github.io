@@ -17,6 +17,7 @@ let myIndex = 0;
 
 let Dutch = true;
 
+//language changing stuff
 function ChangeLanguageLoad()
 {
     if (localStorage.getItem("penis").includes("English"))
@@ -31,7 +32,6 @@ function ChangeLanguageLoad()
     }
     console.log(localStorage.getItem("penis"))
 }
-
 
 function TypeWriter(){
     if(i < introText1.length && !Dutch){
@@ -94,7 +94,7 @@ function toProjects(){
 
 
 
-// Other stuff
+// Language changer
 function onload(){
     document.getElementById("container").style.backgroundColor = "#2d2d2d"
 
@@ -443,6 +443,10 @@ function blackJack(){
 
 function fpsGame(){
     window.location.href = "../projectsPage/fpsGame/fpsGame.html"
+}
+
+function webShop(){
+    window.location.href = "../projectsPage/webShop/webShop.html"
 }
 
 
