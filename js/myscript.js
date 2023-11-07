@@ -496,7 +496,7 @@ function webShop(){
 
 
 function openWebshopPage(){
-    window.open("LevisDrip.github.io/WebShopDirectory/WebShopindex.html")
+    window.open("..//WebShopDirectory/WebShopindex.html")
 }
 
 
