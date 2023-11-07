@@ -496,7 +496,7 @@ function webShop(){
 
 
 function openWebshopPage(){
-    window.open("..//WebShopDirectory/WebShopindex.html")
+    window.open("../../WebShopDirectory/WebShopindex.html")
 }
 
 
