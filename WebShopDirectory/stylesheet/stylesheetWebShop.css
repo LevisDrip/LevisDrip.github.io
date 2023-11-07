@@ -1,0 +1,254 @@
+body
+{
+    padding: 0px;
+    margin: 0px 0px 100px 0px;
+
+
+    background-image: url("../images/TattooEdit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #2d2d2d;
+}
+
+#backdrop{
+    display: none;
+
+    background-color: rgba(45, 45, 45, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+
+    z-index: 1;
+}
+
+#modal{
+    display: none;
+
+    height: 300px;
+    width: 300px;
+
+    left: 40%;
+    top: 30%;
+
+    position: fixed;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #6b0808;
+    text-align: center;
+
+    z-index: 1;
+
+
+    font-family: "Arial Black";
+}
+
+
+
+
+#topBar
+{
+    display: flex;
+    width: 95vw;
+    height: 77vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+#header, #footer{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    filter: drop-shadow(0 -6mm 4mm rgb(54, 54, 54));
+}
+
+#header{
+    top: 0px;
+    background-color: black;
+}
+
+#footer{
+    bottom: 0px;
+    background-color: black;
+}
+
+#title
+{
+    float: left;
+    margin: 30px 10px 30px 65px;
+    font-family: Algerian;
+    font-size: xxx-large;
+    color: white;
+    text-shadow: 2px 6px 4px #9CA6A9;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 55px;
+
+    background-color: #2d2d2d;;
+
+}
+
+#products > div {
+
+    width:  400px;
+    height: 500px;
+
+
+
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addOrRemove{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    text-align: center;
+    margin: 20px 20px 20px 20px}
+
+.addOrRemove> :nth-child(1){
+    height: 50px;
+    width: 50px;
+
+
+    text-align: center;
+    border-radius: 100px;
+}
+
+.addOrRemove> :nth-child(2){
+    height: 50px;
+    width: 50px;
+
+
+    text-align: center;
+    border-radius: 100px;
+
+
+
+}
+
+
+.block > :nth-child(1){
+
+    width: 380px;
+    flex: 2 2 0; /*flex: grow shrink basis */
+    margin: 10px 0;
+
+}
+
+.block > :nth-child(2){
+    width: 380px;
+    flex: 1 1 0;
+    margin-bottom: 10px;
+
+    background-color: rgba(63, 63, 63, 0.38);
+    text-align: center;
+}
+
+
+.marginText{
+    margin-bottom: 30px;
+    font-family: Algerian;
+}
+
+.coppedButtons{
+    float: right;
+    align-self: center;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 5px;
+
+    margin: 25px 30px 10px 10px;
+}
+
+#cartMenu{
+    width: 200px;
+    height: 500px;
+
+    margin-top: 25px;
+
+    background-color: rgb(59, 59, 59);
+    float: right;
+}
+
+#boughtMenu{
+    width: 200px;
+    height: 500px;
+
+    margin-top: 125px;
+
+    background-color: rgb(59, 59, 59);
+    float: right;
+}
+
+
+#coppedContainer{
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-right: 25px;
+}
+
+.cartItem{
+    border: black 5px solid;
+    width: 96%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+
+    position: absolute;
+    z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../fonts/PressStart2P-Regular.woff') format('woff'),
+    url('../fonts/PressStart2P-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

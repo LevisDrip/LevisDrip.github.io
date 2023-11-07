@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tattoo Designs</title>
+    <link rel="stylesheet" href="stylesheet/stylesheetWebShop.css">
+    <script src="js/WebShopmyscript.js" ></script>
+</head>
+
+
+<body onload="onloadPage()">
+
+<div id="backdrop" onclick="hidePopUp()">
+    <div id="modal">
+        <p>Would you like a <br> free subscribtion?</p>
+    </div>
+</div>
+
+
+
+
+ <div id="topBar">
+
+     <div id="header">
+         <p id="title">Tattoo designs</p>
+
+         <div id="coppedContainer">
+             <button class="coppedButtons" onclick="cartShow()">Cart</button>
+             <div id="cartMenu">
+                 <h3>Cart:</h3>
+                 <div id="cartItemsContainer"></div>
+                 <h1 id="cartCostText">Cost:</h1>
+                 <button onclick="buyCartItems()">Finish transaction</button>
+             </div>
+         </div>
+
+         <div>
+             <button class="coppedButtons" onclick="boughtShow()">Bought</button>
+             <div id="boughtMenu"></div>
+         </div>
+     </div>
+ </div>
+
+ <div id="products">
+     <div class="block">
+         <div><img src="images/PolynesianTattoo.png" alt=""></div>
+         <div>
+
+             <p class="marginText" id="name0">Polynesian Design</p>
+
+
+
+             <p id="stockText0">10</p>
+
+             <p id="priceText0"></p>
+
+             <div class="addOrRemove">
+
+                 <button class="tooltip" id="pb0" onclick="removeStock(0)">
+                     <p>
+                         <span class="tooltiptext">add to cart</span>
+
+                         +</p>
+                 </button>
+                 <button class="tooltip" id="mb0" onclick="addStock(0)">
+                     <p>
+                         <span class="tooltiptext">remove from cart</span>
+                         -</p>
+                 </button>
+
+             </div>
+         </div>
+
+
+     </div>
+
+     <div class="block">
+         <div><img src="images/Black&WhiteTattoo.jpg" alt=""></div>
+         <div>
+
+             <p class="marginText" id="name1">Black and white design</p>
+
+
+
+             <p id="stockText1">10</p>
+
+             <p id="priceText1"></p>
+
+             <div class="addOrRemove">
+
+                 <button class="tooltip" id="pb1" onclick="removeStock(1)">
+                     <p>
+                         <span class="tooltiptext">add to cart</span>
+                         +</p>
+                 </button>
+                 <button class="tooltip" id="mb1" onclick="addStock(1)">
+                     <p>-
+
+                         <span class="tooltiptext">remove from cart</span>
+                     </p>
+                 </button>
+
+             </div>
+         </div>
+
+
+
+     </div>
+
+
+
+     <div class="block">
+         <div><img src="images/JapaneseTattoo.png" alt=""></div>
+         <div>
+
+             <p class="marginText" id="name2">Japanese design</p>
+
+
+
+             <p id="stockText2">10</p>
+
+             <p id="priceText2"></p>
+
+             <div class="addOrRemove">
+
+                 <button class="tooltip" id="pb2" onclick="removeStock(2)" >
+                     <p >
+
+                         <span class="tooltiptext">add to cart</span>
+                         +</p>
+                 </button>
+                 <button class="tooltip" id="mb2" onclick="addStock(2)">
+                     <p >
+                         <span class="tooltiptext">remove from cart</span>
+
+                         -</p>
+                 </button>
+
+             </div>
+         </div>
+
+
+     </div>
+ </div>
+
+ <div id="footer">
+    <button class="coppedButtons" onclick="showPopUp()">???</button>
+
+ </div>
+
+
+
+
+</body>
+</html>

@@ -34,6 +34,8 @@ function ChangeLanguageLoad()
 }
 
 function TypeWriter(){
+    document.getElementById("background").style.backgroundColor = "black";
+
     if(i < introText1.length && !Dutch){
         document.getElementById("head").innerHTML += introText1.charAt(i);
         i++;
@@ -374,6 +376,49 @@ function onloadFPSshooter(){
     }
 }
 
+function onloadWebShop(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+    document.getElementById("button").style.display = "block"
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectWebShopInfo1").innerText = "An assignment to learn a lot more about JavaScript. We had to make a Webshop with functional" +
+            "buying systems. Honestly there isn't a lot I can say about this exercise, since I don't actually want" +
+            "to continue any further with web development. That's why I focused more on the development part of " +
+            "this exercise, instead of the design of the website."
+
+
+        document.getElementById("button").innerText = "To the WebShop"
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectWebShopInfo1").innerText = "Een opdracht om nog meer te weten te komen over JavaScript. We moesten een WebShop met een functioneel " +
+            "koop systeem maken. Veel meer kan ik niet zeggen over deze opdracht, omdat ik niet echt verder wil met " +
+            "web development. Dit is ook de reden dat ik meer focus legde op het coderen dan het ontwerp van de website."
+
+
+        document.getElementById("button").innerText = "Naar de WebShop"
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
 
 
 function onloadProject(){
@@ -449,6 +494,10 @@ function webShop(){
     window.location.href = "../projectsPage/webShop/webShop.html"
 }
 
+
+function openWebshopPage(){
+    window.open("LevisDrip.github.io/WebShopDirectory/WebShopindex.html")
+}
 
 
 function changeDutch(){
