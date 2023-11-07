@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../../stylesheet/stylesheet.css">
+
+
+</head>
+<script src="../../js/myscript.js"></script>
+
+<body onload="ChangeLanguageLoad(), onloadShadowWizards()">
+
+<div id="container">
+    <div id="projectHeader2">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn" id="languageText">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Nederlands</a>
+
+            </div>
+        </div>
+
+        <h1 class="projectFont">Project - Shadow Wizard Money Gang in Space Gang Violence</h1>
+
+        <div id="navigationDiv">
+            <button onclick="goBack()" class="navigationButtons buttonHover"> <p id="BackButton" class="buttonFont">Go back</p>  </button>
+
+        </div>
+
+    </div>
+
+    <div class="portfolioContentMain">
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectWizardInfo1">This is a game me and a friend of mine made for a small game jam at out school. We had 2 to 3 days to
+                make a game with a of subject choice, these subject were given at the start of the game jam. We chose the subject
+                space wizards. So this is what we came up with. A Galaga like space wizard shooter. The game's difficulty
+                depends on the score. Every 4000 score adds a new enemy spawner. This means that at some point the game will
+                be so difficult that you cant run it anymore.</p>
+        </div>
+
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/shadowWizards/shadowWizards1.png" alt="">
+        </div>
+    </div>
+
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/shadowWizards/shadowWizards2png.png" alt="">
+        </div>
+
+
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectWizardInfo2">This game can be 2 player. As long as you have lives, which can be seen on the left side of the screen, a
+                second player can join or if you have died you can respawn. The lives are global so every player can use it.
+                The ghost enemies have a chance to drop 1ups and the tank enemie has a chance to drop "Mana potions" which, when picked up, will increase your rate of fire.
+                <br>
+                At our school we have this arcade cabinet, or more or less a computer that has arcade controls. We thought it
+                would be a funny idea to make this game compatible for the arcade cabinet. Luckily we were able to get out hands on the control sheets and thus we were able to make 2 versions of the game. One of them for computer
+                and another for the arcade cabinet.</p>
+        </div>
+
+
+    </div>
+
+
+    <div id="footer">
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont" id="contactText">Contact me</p>  </button>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

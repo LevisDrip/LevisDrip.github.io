@@ -455,6 +455,11 @@ div.OtherSlideShowContainer{
     background-repeat: no-repeat;
 }
 
+#shadowWizardCover{
+    background-image: url("../img/covers/ShadowWizardCover.png");
+    background-repeat: no-repeat;
+}
+
 
 
 
@@ -863,6 +868,16 @@ div.OtherSlideShowContainer{
 
     #fpsCover{
         background-image: url("../img/covers/resizedCovers/FPSCover.png");
+        background-repeat: no-repeat;
+    }
+
+    #WebsShopAssignmentCover{
+        background-image: url("../img/covers/resizedCovers/WebShopCover.png");
+        background-repeat: no-repeat;
+    }
+
+    #shadowWizardCover{
+        background-image: url("../img/covers/resizedCovers/ShadowWizardCover.png");
         background-repeat: no-repeat;
     }
 }

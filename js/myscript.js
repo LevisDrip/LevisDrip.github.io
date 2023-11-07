@@ -419,6 +419,66 @@ function onloadWebShop(){
     }
 }
 
+function onloadShadowWizards(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectWizardInfo1").innerText = "This is a game me and a friend of mine made for a small game jam at out school. We had 2 to 3 days to" +
+            "make a game with a of subject choice, these subject were given at the start of the game jam. We chose the subject" +
+            "space wizards. So this is what we came up with. A Galaga like space wizard shooter. The game's difficulty" +
+            "depends on the score. Every 4000 score adds a new enemy spawner. This means that at some point the game will" +
+            "be so difficult that you cant run it anymore."
+
+        document.getElementById("projectWizardInfo2").innerText = "This game can be 2 player. As long as you have lives, which can be seen on the left side of the screen, a" +
+            "second player can join or if you have died you can respawn. The lives are global so every player can use it." +
+            "The ghost enemies have a chance to drop 1ups and the tank enemie has a chance to drop \"Mana potions\" which, when picked up, will increase your rate of fire." +
+            "\n" +
+            "At our school we have this arcade cabinet, or more or less a computer that has arcade controls. We thought it" +
+            "would be a funny idea to make this game compatible for the arcade cabinet. Luckily we were able to get out hands on the control sheets and thus we were able to make 2 versions of the game. One of them for computer" +
+            "and another for the arcade cabinet."
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectWizardInfo1").innerText = "Dit is een spel die een vriend en ik hebben gemaakt voor een kleine game jam op onze school. We hadden 2 tot" +
+            "3 dagen de tijd om een spel te maken met een onderwerp die we zelf uit mochten kiezen, deze onderwerpen" +
+            "konden we kiezen aan het begin van de game jam. Wij hadden gekozen voor het onderwerp ruimte tovenaars. Dus" +
+            "dit is wat we in gedachten hadden. Een game zoals Galaga, maar dan een ruimte shooter met tovenaars. De moeilijkheidsgraad van het spel veranders door middel van de score. Elke 4000 score komt er een nieuwe" +
+            "vijandelijke spawner bij. Dit betekent dan ook dat het spel uiteindelijk zo moeilijk wordt, dat het niet meer" +
+            "te spelen is."
+
+        document.getElementById("projectWizardInfo2").innerText = "Dit spel kan voor 2 spelers zijn. Zolang je levens hebt, die je aan de linkerkant van het scherm kunt zien, kan" +
+            "een tweede speler meedoen of als je dood bent, kun je respawnen. De levens zijn globaal, dus elke speler kan er gebruik van maken." +
+            "De spookvijanden hebben de kans om 1ups te laten vallen en de tankvijand heeft de kans om \"Mana-drankjes\" te laten vallen, die, wanneer je ze oppakt, je vuursnelheid zal verhogen." +
+            "\n" +
+            "Op onze school hebben we deze arcadekast, of min of meer een computer met arcadebediening. Wij dachten dat     " +
+            "het een grappig idee zou zijn om dit spel ook voor de arcadekast te maken. Gelukkig konden we de controlebladen te pakken krijgen en zo konden we 2 versies van het spel maken. Eén ervan voor de computer" +
+            "en nog een voor de arcadekast."
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
+
+
+
 
 
 function onloadProject(){
@@ -492,6 +552,10 @@ function fpsGame(){
 
 function webShop(){
     window.location.href = "../projectsPage/webShop/webShop.html"
+}
+
+function shadowWizards(){
+    window.location.href = "../projectsPage/shadowWizards/shadowWizards.html"
 }
 
 
