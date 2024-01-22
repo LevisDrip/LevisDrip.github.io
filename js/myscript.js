@@ -524,6 +524,7 @@ function onloadStarWizards(){
 
     document.getElementById("container").style.backgroundColor = "#2d2d2d"
 
+    document.getElementById("button").style.display = "block"
 
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
