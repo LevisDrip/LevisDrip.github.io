@@ -503,9 +503,13 @@ function onloadPopStar(){
 
         document.getElementById("BackButton").innerText = "Terug"
 
-        document.getElementById("projectPop1").innerText = ""
+        document.getElementById("projectPop1").innerText = "Een klein project voor een school opdracht. We hadden geplanned om een oneindige runner " +
+            "te maken. Jammer genoeg kwamen we in tijdsnood en moesten we dat idee achter laten. Dus hebben we het veranderd in een level based " +
+            "runner. Terwijl je aan het rennen bent kun je energy blikjes op pakken. Deze blikjes maken je sneller en deze snelheid komt later nog wel van pas. " +
+            "Ondertussen zul je ook op moeten passen voor berenvallen en stekel vallen."
 
-        document.getElementById("projectPop2").innerText = ""
+        document.getElementById("projectPop2").innerText = "We hebben dit project op de arcade kast kunnen zetten. Iedereen kan het nu spelen. " +
+            "De controls zijn fatsoenlijk uitgelegd, dus er kan geen verwarring ontstaan over hoe het spel gespeeld moet worden."
 
 
 
