@@ -529,7 +529,9 @@ function onloadStarWizards(){
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
 
-        document.getElementById("projectStarWiz1").innerText = ""
+        document.getElementById("projectStarWiz1").innerText = "The sequal to our first game. My friend stof and I had decided to" +
+            "            make a sequal to our already popular game. Moving on from the 2D concept of our previous game, this one is in" +
+            "            3D. Flying into danger killing enemies with you magic powered spaceship. Try to get the highscore!"
 
         document.getElementById("projectStarWiz2").innerText = ""
 
