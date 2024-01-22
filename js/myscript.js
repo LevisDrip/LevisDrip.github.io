@@ -476,7 +476,41 @@ function onloadShadowWizards(){
     }
 }
 
+function onloadPopStar(){
 
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectPop1").innerText = ""
+
+        document.getElementById("projectPop2").innerText = ""
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectPop1").innerText = ""
+
+        document.getElementById("projectPop2").innerText = ""
+
+
+
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
 
 
 
@@ -557,6 +591,12 @@ function webShop(){
 function shadowWizards(){
     window.location.href = "../projectsPage/shadowWizards/shadowWizards.html"
 }
+
+function popStar(){
+    window.location.href = "../projectsPage/popStar/popStar.html"
+}
+
+
 
 
 function openWebshopPage(){

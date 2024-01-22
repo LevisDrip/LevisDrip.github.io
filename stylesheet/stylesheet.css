@@ -460,6 +460,10 @@ div.OtherSlideShowContainer{
     background-repeat: no-repeat;
 }
 
+#popStarCover{
+    background-image: url("../img/covers/PopStarCover.png");
+    background-repeat: no-repeat;
+}
 
 
 
@@ -878,6 +882,11 @@ div.OtherSlideShowContainer{
 
     #shadowWizardCover{
         background-image: url("../img/covers/resizedCovers/ShadowWizardCover.png");
+        background-repeat: no-repeat;
+    }
+
+    #popStarCover{
+        background-image: url("../img/covers/resizedCovers/PopStarCover.png");
         background-repeat: no-repeat;
     }
 }
