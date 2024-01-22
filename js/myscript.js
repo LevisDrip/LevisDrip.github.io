@@ -484,9 +484,13 @@ function onloadPopStar(){
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
 
-        document.getElementById("projectPop1").innerText = ""
+        document.getElementById("projectPop1").innerText = "A small project for a school assignment. We made had planned on making " +
+            "it an infinite runner, unfortunately we ran out of time and had to scrap the infinite runner idea. So, we turned " +
+            "it into a level based runner. As you are running along, you may pick up energy cans to increase your speed, which " +
+            "you will need. Of course, you'll have to watch out for traps, like beartraps or spike pits."
 
-        document.getElementById("projectPop2").innerText = ""
+        document.getElementById("projectPop2").innerText = "We made this project suitable for the arcade machine. Everybody can " +
+            "play it. The controls have been displayed, so there's no confusion on how the game is played."
 
 
 
