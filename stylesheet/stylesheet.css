@@ -465,6 +465,10 @@ div.OtherSlideShowContainer{
     background-repeat: no-repeat;
 }
 
+#starWizardsCover{
+    background-image: url("../img/covers/StarWizardsCover.png");
+    background-repeat: no-repeat;
+}
 
 
 /* dd container */
@@ -887,6 +891,11 @@ div.OtherSlideShowContainer{
 
     #popStarCover{
         background-image: url("../img/covers/resizedCovers/PopStarCover.png");
+        background-repeat: no-repeat;
+    }
+
+    #starWizardsCover{
+        background-image: url("../img/covers/resizedCovers/StarWizardsCover.png");
         background-repeat: no-repeat;
     }
 }

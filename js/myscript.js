@@ -520,6 +520,43 @@ function onloadPopStar(){
     }
 }
 
+function onloadStarWizards(){
+
+    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
+
+    if (!Dutch){
+        document.getElementById("BackButton").innerText = "Go back"
+
+        document.getElementById("projectStarWiz1").innerText = ""
+
+        document.getElementById("projectStarWiz2").innerText = ""
+
+
+        document.getElementById("button").innerText = "To the Game"
+
+        document.getElementById("contactText").innerText = "Contact me"
+
+        document.getElementById("languageText").innerText = "Language"
+    }
+    else {
+
+        document.getElementById("BackButton").innerText = "Terug"
+
+        document.getElementById("projectStarWiz1").innerText = ""
+
+        document.getElementById("projectStarWiz2").innerText = ""
+
+
+        document.getElementById("button").innerText = "Naar de Game"
+
+        document.getElementById("contactText").innerText = "Contact opnemen?"
+
+        document.getElementById("languageText").innerText = "Taal"
+    }
+}
+
+
 
 
 
@@ -600,6 +637,10 @@ function shadowWizards(){
     window.location.href = "../projectsPage/shadowWizards/shadowWizards.html"
 }
 
+function starWizards(){
+    window.location.href = "../projectsPage/starWizards/starWizards.html"
+}
+
 function popStar(){
     window.location.href = "../projectsPage/popStar/popStar.html"
 }
@@ -609,6 +650,10 @@ function popStar(){
 
 function openWebshopPage(){
     window.open("../../WebShopDirectory/WebShopindex.html")
+}
+
+function openStarWizards(){
+    window.open("../../StarWizardsBuild/index.html")
 }
 
 
