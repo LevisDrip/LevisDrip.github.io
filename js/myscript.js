@@ -529,14 +529,14 @@ function onloadStarWizards(){
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
 
-        document.getElementById("projectStarWiz1").innerText = "The sequal to our first game. My friend stof and I had decided to" +
-            "            make a sequal to our already popular game. Moving on from the 2D concept of our previous game, this one is in" +
-            "            3D. Flying into danger killing enemies with you magic powered spaceship. Try to get the highscore!"
+        document.getElementById("projectStarWiz1").innerText = "The sequal to our first game. My friend stof and I had decided to " +
+            "            make a sequal to our already popular game. Moving on from the 2D concept of our previous game, this one is in " +
+            "            3D. Flying into danger killing enemies with you magic powered spaceship. Try to get the highscore! "
 
-        document.getElementById("projectStarWiz2").innerText = "As with the our previous game, we decided to hook it up to the" +
-            "            arcade machine. We were planning to make 2 different game modes, these being endless mode and mission mode." +
-            "            We are currently still working on the mission mode, since the level design for these take quite some time." +
-            "            Of course we are going to update the game and have the mission mode on arcade as well. I'll be sure to put the" +
+        document.getElementById("projectStarWiz2").innerText = "As with the our previous game, we decided to hook it up to the " +
+            "            arcade machine. We were planning to make 2 different game modes, these being endless mode and mission mode. " +
+            "            We are currently still working on the mission mode, since the level design for these take quite some time. " +
+            "            Of course we are going to update the game and have the mission mode on arcade as well. I'll be sure to put the " +
             "            updated game on this page as well."
 
 
@@ -550,13 +550,13 @@ function onloadStarWizards(){
 
         document.getElementById("BackButton").innerText = "Terug"
 
-        document.getElementById("projectStarWiz1").innerText = "Het vervolg op ons eerste spel. Mijn vriend stof en ik hadden besloten" +
-            "om een vervolg te maken op ons al redelijk populaire spel. We zijn overgestapt naar een 3D concept, in tegenstelling tot ons laatste" +
+        document.getElementById("projectStarWiz1").innerText = "Het vervolg op ons eerste spel. Mijn vriend stof en ik hadden besloten " +
+            "om een vervolg te maken op ons al redelijk populaire spel. We zijn overgestapt naar een 3D concept, in tegenstelling tot ons laatste " +
             "project die in 2D was. Vlieg rechtstreeks tegen het gevaar in terwijl je vijanden neer schiet in je magische ruimteschip. Probeer de hoogste score te krijgen."
 
-        document.getElementById("projectStarWiz2").innerText = "Net zoals ons vorige spel hebben we bij dit spel er ook weer voor gezorgd" +
-            "dat het op de arcade kast te spelen is. We hadden eerst het idee om 2 gamemodes te maken, namelijk een oneindige mode en een missie mode." +
-            "We zijn momenteel nog bezig met het maken van de missie mode, omdat het designen van levels toch net iets te lang ging duren. Natuurlijk gaan" +
+        document.getElementById("projectStarWiz2").innerText = "Net zoals ons vorige spel hebben we bij dit spel er ook weer voor gezorgd " +
+            "dat het op de arcade kast te spelen is. We hadden eerst het idee om 2 gamemodes te maken, namelijk een oneindige mode en een missie mode. " +
+            "We zijn momenteel nog bezig met het maken van de missie mode, omdat het designen van levels toch net iets te lang ging duren. Natuurlijk gaan " +
             "we het geupdate spel ook aan de arcade kast toevoegen en ik zorg er ook voor dat ik het spel op deze pagina update."
 
 
