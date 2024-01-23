@@ -551,13 +551,13 @@ function onloadStarWizards(){
         document.getElementById("BackButton").innerText = "Terug"
 
         document.getElementById("projectStarWiz1").innerText = "Het vervolg op ons eerste spel. Mijn vriend stof en ik hadden besloten " +
-            "om een vervolg te maken op ons al redelijk populaire spel. We zijn overgestapt naar een 3D concept, in tegenstelling tot ons laatste " +
-            "project die in 2D was. Vlieg rechtstreeks tegen het gevaar in terwijl je vijanden neer schiet in je magische ruimteschip. Probeer de hoogste score te krijgen."
+            " om een vervolg te maken op ons al redelijk populaire spel. We zijn overgestapt naar een 3D concept, in tegenstelling tot ons laatste " +
+            " project die in 2D was. Vlieg rechtstreeks tegen het gevaar in terwijl je vijanden neer schiet in je magische ruimteschip. Probeer de hoogste score te krijgen."
 
         document.getElementById("projectStarWiz2").innerText = "Net zoals ons vorige spel hebben we bij dit spel er ook weer voor gezorgd " +
-            "dat het op de arcade kast te spelen is. We hadden eerst het idee om 2 gamemodes te maken, namelijk een oneindige mode en een missie mode. " +
-            "We zijn momenteel nog bezig met het maken van de missie mode, omdat het designen van levels toch net iets te lang ging duren. Natuurlijk gaan " +
-            "we het geupdate spel ook aan de arcade kast toevoegen en ik zorg er ook voor dat ik het spel op deze pagina update."
+            " dat het op de arcade kast te spelen is. We hadden eerst het idee om 2 gamemodes te maken, namelijk een oneindige mode en een missie mode. " +
+            " We zijn momenteel nog bezig met het maken van de missie mode, omdat het designen van levels toch net iets te lang ging duren. Natuurlijk gaan " +
+            " we het geupdate spel ook aan de arcade kast toevoegen en ik zorg er ook voor dat ik het spel op deze pagina update."
 
 
         document.getElementById("button").innerText = "Naar de Game"
