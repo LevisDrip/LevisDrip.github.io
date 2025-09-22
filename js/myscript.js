@@ -98,7 +98,7 @@ function toProjects(){
 
 // Language changer
 function onload(){
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     slideShow();
 
@@ -205,7 +205,7 @@ function onload(){
 }
 
 function onloadHome(){
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     slideShow();
 
@@ -239,7 +239,7 @@ function onloadHome(){
 
 function onloadBoardingBucs(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
@@ -295,7 +295,7 @@ function onloadBoardingBucs(){
 
 function onloadBlackJack(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
@@ -341,7 +341,7 @@ function onloadBlackJack(){
 
 function onloadFPSshooter(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
@@ -376,25 +376,14 @@ function onloadFPSshooter(){
     }
 }
 
-function onloadWebShop(){
-
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
-
-    document.getElementById("button").style.display = "block"
+function onloadMaze(){
 
     if (!Dutch){
         document.getElementById("BackButton").innerText = "Go back"
 
-        document.getElementById("projectWebShopInfo1").innerText = "An assignment to learn a lot more about JavaScript. We had to make a Webshop with functional" +
-            "buying systems. Honestly there isn't a lot I can say about this exercise, since I don't actually want" +
-            "to continue any further with web development. That's why I focused more on the development part of " +
-            "this exercise, instead of the design of the website."
+        document.getElementById("projectMazeGame1").innerText = "This is another school project, however this is by far my favorite project. I chose to learn more about Perlin Noise, the strange, random and almost static like texture that is used to make randomly generated maps. When making this game, I made all the assets myself. I decided to work with Voxel models, because I had just learned about a voxel model designer. Rigging the models for the enemies was a lot harder than I first anticipated but I was able to do it nonetheless!"
 
-
-        document.getElementById("button").innerText = "To the WebShop"
-
-
-
+        document.getElementById("projectMazeGame2").innerText = "All the models you see are made by me. Some models were easy to make, while certain models such as the Robot Spider, were a bit more difficult. I was even able to animate the Robot Spider. Which was rather difficult because the modelling software I used wasn't able to rig the body parts together. So I had to do that within the Unity Editor. Like any Arachnid(Spider) I had to give the Spider joints, i did this by putting empty gameObjects wherever I wanted the spiders limbs to be able to turn. Truly a tedious process taking up most of my time, but they work and look pretty good if I say so myself"
 
         document.getElementById("contactText").innerText = "Contact me"
 
@@ -404,14 +393,13 @@ function onloadWebShop(){
 
         document.getElementById("BackButton").innerText = "Terug"
 
-        document.getElementById("projectWebShopInfo1").innerText = "Een opdracht om nog meer te weten te komen over JavaScript. We moesten een WebShop met een functioneel " +
-            "koop systeem maken. Veel meer kan ik niet zeggen over deze opdracht, omdat ik niet echt verder wil met " +
-            "web development. Dit is ook de reden dat ik meer focus legde op het coderen dan het ontwerp van de website."
+        document.getElementById("projectMazeGame1").innerText = "Dit is weer een schoolproject, maar dit is tot nu toe mijn favoriete project. Ik heb ervoor gekozen om meer te leren over Perlin Noise, de vreemde, willekeurige en bijna statische textuur die wordt gebruikt om willekeurig gegenereerde werelden te maken. Bij het maken van dit spel heb ik alle assets zelf gemaakt. Ik besloot met voxelmodellen te werken, omdat ik net had geleerd over een voxelmodel-ontwerper. Het riggen van de modellen voor de vijanden was een stuk moeilijker dan ik in eerste instantie had verwacht, maar ik heb het toch voor elkaar gekregen!"
 
-
-        document.getElementById("button").innerText = "Naar de WebShop"
-
-
+        document.getElementById("projectMazeGame2").innerText = "Alle modellen die je ziet zijn door mij gemaakt. Sommige modellen waren makkelijk te maken, terwijl bepaalde modellen, zoals de Robot Spider, wat moeilijker waren.\n" +
+            "\n" +
+            "Ik ben er zelfs in geslaagd om de Robot Spider te animeren. Dat was behoorlijk lastig, omdat de modelleersoftware die ik gebruikte niet in staat was om de lichaamsdelen samen te riggen. Daarom moest ik dat doen binnen de Unity Editor.\n" +
+            "\n" +
+            "Zoals bij elk arachnide (spin) moest ik de Spider gewrichten geven. Dit deed ik door lege gameObjects te plaatsen op de plekken waar ik wilde dat de poten van de spin konden draaien. Een werkelijk tijdrovend proces dat het grootste deel van mijn tijd in beslag nam, maar ze werken en zien er best goed uit al zeg ik het zelf!"
 
         document.getElementById("contactText").innerText = "Contact opnemen?"
 
@@ -421,7 +409,7 @@ function onloadWebShop(){
 
 function onloadShadowWizards(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
 
     if (!Dutch){
@@ -478,7 +466,7 @@ function onloadShadowWizards(){
 
 function onloadPopStar(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
 
     if (!Dutch){
@@ -522,7 +510,7 @@ function onloadPopStar(){
 
 function onloadStarWizards(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     document.getElementById("button").style.display = "block"
 
@@ -574,7 +562,7 @@ function onloadStarWizards(){
 
 function onloadProject(){
 
-    document.getElementById("container").style.backgroundColor = "#2d2d2d"
+
 
     if (!Dutch){
         document.getElementById("projectTitle").innerText = "The archive     -    Projects"
@@ -641,8 +629,8 @@ function fpsGame(){
     window.location.href = "../projectsPage/fpsGame/fpsGame.html"
 }
 
-function webShop(){
-    window.location.href = "../projectsPage/webShop/webShop.html"
+function mazeGame(){
+    window.location.href = "../projectsPage/mazeGame/mazeGame.html"
 }
 
 function shadowWizards(){
@@ -657,12 +645,6 @@ function popStar(){
     window.location.href = "../projectsPage/popStar/popStar.html"
 }
 
-
-
-
-function openWebshopPage(){
-    window.open("../../WebShopDirectory/WebShopindex.html")
-}
 
 function openStarWizards(){
     window.open("../../StarWizardsBuild/index.html")

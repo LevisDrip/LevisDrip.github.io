@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../../stylesheet/stylesheet.css">
+
+
+</head>
+<script src="../../js/myscript.js"></script>
+
+<body onload="ChangeLanguageLoad(), onloadMaze()">
+
+<div id="container">
+    <div id="projectHeader2">
+        <div class="dropdown" tabindex="1">
+            <i class="db2" tabindex="1"></i>
+            <a class="dropbtn" id="languageText">Language</a>
+            <div class="dropdown-content">
+                <a onclick="changeEnglish()">English</a>
+                <a onclick="changeDutch()">Nederlands</a>
+
+            </div>
+        </div>
+
+        <h1 class="projectFont">Project -  Survive the Maze</h1>
+
+        <div id="navigationDiv">
+            <button onclick="goBack()" class="navigationButtons buttonHover"> <p id="BackButton" class="buttonFont">Go back</p>  </button>
+
+        </div>
+
+    </div>
+
+    <div class="portfolioContentMain">
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectMazeGame1">This is another school project, however this is by far my favorite project.
+                I chose to learn more about Perlin Noise, the strange, random and almost static like texture that is used to make randomly
+                generated maps.
+
+                When making this game, I made all the assets myself. I decided to work with Voxel models, because I had just learned about
+                a voxel model designer. Rigging the models for the enemies was a lot harder than I first anticipated but I was able to do it
+                nonetheless!
+            </p>
+        </div>
+
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG1.png" alt="">
+        </div>
+    </div>
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG2.png" alt="">
+        </div>
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG3.png" alt="">
+        </div>
+    </div>
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG4.png" alt="">
+        </div>
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG5.png" alt="">
+        </div>
+    </div>
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG6.png" alt="">
+        </div>
+        <div class="aboutProjectsBox">
+            <p class="aboutmefont" id="projectMazeGame2">All the models you see are made by me. Some models were easy to make, while certain models such as the Robot Spider, were a bit more difficult. I was even able to animate the Robot Spider. Which was rather difficult because the modelling software I used wasn't able to rig the body parts together. So I had to do that within the Unity Editor. Like any Arachnid(Spider) I had to give the Spider joints, i did this by putting empty gameObjects wherever I wanted the spiders limbs to be able to turn. Truly a tedious process taking up most of my time, but they work and look pretty good if I say so myself
+            </p>
+        </div>
+    </div>
+    <div class="portfolioContentMain">
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG7.png" alt="">
+        </div>
+        <div>
+            <img class="projectImages" src="../../img/ProjectImages/mazeGame/IMG8.png" alt="">
+        </div>
+    </div>
+
+    <div id="footer">
+        <button onclick="window.open('mailto:levilamerichs@gmail.com')" class="contactButton buttonHover"> <p class="buttonFont" id="contactText">Contact me</p>  </button>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>
