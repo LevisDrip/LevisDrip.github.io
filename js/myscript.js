@@ -663,4 +663,7 @@ function changeEnglish(){
     window.location.reload();
 }
 
-
+function changeEnglishFirst(){
+    document.cookie = "Dutch"
+    localStorage.setItem("penis", "FISH")
+}
