@@ -11,10 +11,10 @@ const Footer = () => {
           <div className="font-display text-xl font-bold text-gradient">{t.footer.brand}</div>
           <div className="flex items-center gap-4">
             {[
-              { icon: Github, href: "#" },
+              { icon: Github, href: "https://github.com/LevisDrip" },
               { icon: Twitter, href: "#" },
-              { icon: Linkedin, href: "#" },
-              { icon: Mail, href: "#" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/levi-lamerichs-7aa979265/" },
+              { icon: Mail, href: "levilamerichs@gmail.com" },
             ].map(({ icon: Icon, href }, index) => (
               <a
                 key={index}
