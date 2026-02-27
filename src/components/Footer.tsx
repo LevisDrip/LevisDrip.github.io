@@ -14,7 +14,7 @@ const Footer = () => {
               { icon: Github, href: "https://github.com/LevisDrip" },
               { icon: Twitter, href: "#" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/levi-lamerichs-7aa979265/" },
-              { icon: Mail, href: "levilamerichs@gmail.com" },
+              { icon: Mail, href: "mailto:levilamerichs@gmail.com" },
             ].map(({ icon: Icon, href }, index) => (
               <a
                 key={index}
